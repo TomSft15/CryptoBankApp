@@ -14,7 +14,7 @@ const LoginPage = ({ navigation }) => {
         <Text style={styles.subTitle}>Sign in to your account</Text>
         <TextInput placeholder='Email' style={styles.input} />
         <TextInput placeholder='Password' style={styles.input} />
-        <TouchableOpacity style={styles.button}>
+        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('MainPage')}>
             <Text style={{ color: '#fff' }}>Sign In</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.buttonGoogle}>

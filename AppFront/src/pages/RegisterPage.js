@@ -17,7 +17,7 @@ const RegisterPage = ({ navigation }) => {
         <TextInput placeholder='Username' style={styles.input} />
         <TextInput placeholder='Email' style={styles.input} />
         <TextInput placeholder='Password' style={styles.input} />
-        <TouchableOpacity style={styles.button}>
+        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('MainPage')}>
             <Text style={{ color: '#fff' }}>Register</Text>
         </TouchableOpacity>
         <Text style={styles.loginText}>Already have an account?</Text>

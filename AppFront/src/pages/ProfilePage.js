@@ -13,8 +13,8 @@ const ProfilePage = ({ navigation }) => {
           source={{ uri: 'https://via.placeholder.com/150' }}
           style={styles.profileImage}
         />
-        <Text style={styles.profileName}>John Doe</Text>
-        <Text style={styles.profileEmail}>johndoe@example.com</Text>
+        <Text style={styles.profileName}>toto92</Text>
+        <Text style={styles.profileEmail}>toto92@example.com</Text>
       </View>
 
       <TouchableOpacity style={styles.logoutButton} onPress={handleLogout}>

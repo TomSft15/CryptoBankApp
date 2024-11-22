@@ -22,7 +22,7 @@ const LoginPage = ({ navigation }) => {
             <Text style={{ color: '#fff' }}>Sign In with Google</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.buttonApple}>
-            <Image source={require('../../assets/logoApple.png')} style={{width: 28, height: 34, marginEnd: 15}} />
+            <Image source={require('../../assets/logoApple.png')} style={{width: 26, height: 32, marginEnd: 15}} />
             <Text style={{ color: '#fff' }}>Sign In with Apple</Text>
         </TouchableOpacity>
         <Text style={styles.registerText}>Don't have an account?</Text>

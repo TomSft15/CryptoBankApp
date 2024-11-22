@@ -30,7 +30,7 @@ const App = () => {
         <Stack.Navigator initialRouteName="LoginPage">
           <Stack.Screen name="LoginPage" component={LoginPage} options={{headerShown: false}}/>
           <Stack.Screen name="RegisterPage" component={RegisterPage} options={{headerShown: false}}/>
-          <Stack.Screen name="MainPage" component={DrawerNavigator} options={{headerShown: false}}/>
+          <Stack.Screen name="MainPage" component={DrawerNavigator} options={{headerShown: false, gestureEnabled: false}}/>
           <Stack.Screen name="ProfilePage" component={ProfilePage} options={{header: (props) => <Header {...props} title="Profile" />}}/>
 
         </Stack.Navigator>

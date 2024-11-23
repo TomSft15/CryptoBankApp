@@ -126,16 +126,6 @@
 - **Stockage sécurisé** des clés API dans des variables d'environnement pour éviter toute fuite de données sensibles.
 - **Analyse des dépenses bancaires** pour proposer des recommandations personnalisées en matière d'investissement en cryptomonnaie.
 
-## Contribution 💬
-Si vous souhaitez contribuer au projet, veuillez suivre les étapes suivantes :
-
-1. Forkez ce repository.
-2. Créez une nouvelle branche (`git checkout -b feature-xyz`).
-3. Faites vos modifications.
-4. Committez vos changements (`git commit -am 'Add new feature'`).
-5. Poussez votre branche (`git push origin feature-xyz`).
-6. Ouvrez une pull request.
-
 ## License 📜
 Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 

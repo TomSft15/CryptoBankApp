@@ -75,16 +75,31 @@
    ```bash
    git clone https://github.com/votre-utilisateur/CryptoBankApp.git
    cd CryptoBankApp
+
+2. Installez les dépendances pour le backend :
+   ```bash
    cd backend
    npm install
+
+3. Installez les dépendances pour le frontend :
+   ```bash
    cd ../frontend
    npm install
+
+4. Configurez les variables d'environnement pour les clés API (BNP Paribas, CoinGecko, Binance, etc.) dans le fichier .env :
+   ```bash
    API_KEY_BNP_PARIBAS=your_bnp_paribas_api_key
    API_KEY_CRYPTO=your_crypto_api_key
    API_KEY_BINANCE=your_binance_api_key
    JWT_SECRET=your_jwt_secret_key
+
+5. Lancez le backend :
+   ```bash
    cd backend
    npm start
+
+6. Lancez le frontend :
+   ```bash
    cd frontend
    npm start
 
